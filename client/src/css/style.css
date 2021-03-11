@@ -1,0 +1,130 @@
+/* /////////    colors    ///////// */
+/* /////////    sizes    ///////// */
+body {
+  font-family: 'Noto Sans KR', sans-serif; }
+  body section {
+    margin: 30px; }
+  body .space {
+    margin: 10px; }
+  body .bold {
+    font-weight: bold; }
+  body .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  body .progress-text {
+    color: #fe7dab; }
+
+/* /////////    colors    ///////// */
+/* /////////    sizes    ///////// */
+.fund {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .fund .frame-out {
+    margin-top: 40px;
+    border: 6px solid #e8d376;
+    border-radius: 10px; }
+    .fund .frame-out .frame-in {
+      margin: 5px;
+      border: 4px solid #ffe676;
+      background-color: #FFFBE5;
+      border-radius: 5px; }
+  .fund .speak-bubble {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #c454ff;
+    color: white; }
+  .fund .triangle {
+    margin-top: -3px;
+    margin-bottom: 5px;
+    width: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #c454ff;
+    margin-left: 80%; }
+  .fund .main {
+    border: 2px solid #ffe676;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    background-color: #fffef9; }
+    .fund .main .progress-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: hidden;
+      margin: 5px;
+      border-radius: 5px; }
+      .fund .main .progress-wrap .progress-bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 12px;
+        width: 75%;
+        background-color: #fe7dab; }
+      .fund .main .progress-wrap .progress-light {
+        background-color: #fec1ee;
+        margin-left: 20px;
+        width: 20px;
+        height: 100%;
+        z-index: 2; }
+      .fund .main .progress-wrap .empty-progress {
+        border: 1.4px solid #fe7dab;
+        width: 25%;
+        margin-left: auto;
+        border-radius: 0 5px 5px 0; }
+    .fund .main .amount-wrapper {
+      width: 90px;
+      height: 35px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid #9f9f9f; }
+      .fund .main .amount-wrapper .amount {
+        border: none;
+        background: none; }
+    .fund .main .submit {
+      width: 90px;
+      background-color: #d0fff1;
+      border: 2px solid #69f7be;
+      border-radius: 5px;
+      cursor: pointer; }
+    .fund .main .err {
+      color: #bd2828;
+      font-size: 13px;
+      margin: 5px 0; }
+    .fund .main .submitted {
+      color: #1b881c;
+      font-size: 13px;
+      margin: 5px 0; }
+  .fund a {
+    color: #5e9fc0;
+    text-decoration: none;
+    font-size: 0.8rem; }
+  .fund button,
+  .fund input {
+    outline: none;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .fund button {
+    border: 4px solid #aad6fb;
+    border-radius: 4px;
+    border-bottom: 1px solid #9f9f9f;
+    background-color: aliceblue; }
